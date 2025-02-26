@@ -15,7 +15,7 @@ ego_lung <- enrichGO(
   gene = de_genes_lung,
   universe = all_genes,
   OrgDb = org.Mm.eg.db,
-  ont = "BP",         # You can change this to "MF", "CC", or "ALL"
+  ont = "BP",
   keyType = "ENSEMBL",
   pvalueCutoff = 0.05,
   qvalueCutoff = 0.05
@@ -26,7 +26,7 @@ ego_blood <- enrichGO(
   gene = de_genes_blood,
   universe = all_genes,
   OrgDb = org.Mm.eg.db,
-  ont = "BP",         # You can change this to "MF", "CC", or "ALL"
+  ont = "BP", 
   keyType = "ENSEMBL",
   pvalueCutoff = 0.05,
   qvalueCutoff = 0.05
